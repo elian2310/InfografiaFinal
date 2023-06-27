@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proyecto Final Infografía</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Reconocimiento de Texto</h1>
+        <p>Subir una imagen y reconocer el texto que contenga con tesseract</p>
+        <p>Click al botón para comenzar:</p>
+        <form method="GET" action="/read">
+            <input type="submit" value="Inicio">
+        </form>
+    </div>
+</body>
+</html>
